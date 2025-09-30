@@ -151,7 +151,7 @@ construct-editor {
 }
 
 .logo-loader {
-	max-width: 350px;
+	width: 250px;
 	margin-bottom: 1em;
 }
 
