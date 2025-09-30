@@ -93,11 +93,11 @@
 	height: 21px;
 	align-items: center;
 	color: white;
-	background: #1d1c1c;
+	background: transparent;
 	cursor: pointer;
 	border-radius: 5px;
 	padding: 0 0.3em;
-	border: 1px solid white;
+	border: 1px solid gray;
 
 	&:disabled {
 		opacity: 0.5;
