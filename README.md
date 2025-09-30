@@ -1,4 +1,4 @@
-<p align="center"><img width="300" src="./assets/icon2.png"/></p>
+<h1 align="center">Adnexus Studio</h1>
 <p align="center"><a href="https://opensource.org/license/mit"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a></p>
 <p align="center">Professional TV Ad Creation Platform</p>
 
