@@ -28,7 +28,7 @@ export default template(async basic => {
 			<script defer src="https://cdn.jsdelivr.net/npm/es-module-shims@1.8.2/dist/es-module-shims.min.js"></script>
 			<script type="module-shim" src="./main.js"></script>
 			<link rel="stylesheet" href="index.css">
-			<link rel="icon" type="image/png" href="./assets/favicon.png">
+			<link rel="icon" type="image/png" href="https://ad.nexus/lovable-uploads/c8deb79e-8ef5-4d6a-a82d-e502ad428acb.png">
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">

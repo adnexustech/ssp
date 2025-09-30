@@ -62,7 +62,7 @@ export const styles = css`
 				flex-direction: column;
 				padding: 1.5em;
 				gap: 0.2em;
-				font-family: cursive;
+				font-family: Inter;
 
 				& h3 {
 					font-size: 18px;

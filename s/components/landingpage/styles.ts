@@ -2108,7 +2108,7 @@ nav .nav {
 }
 
 .code-preview code {
-	font-family: "Fira Code", monospace;
+	font-family: "Inter", monospace;
 	font-size: 0.85em;
 	color: #e2e8f0;
 	line-height: 1.5;
