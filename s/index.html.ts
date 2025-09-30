@@ -31,7 +31,7 @@ export default template(async basic => {
 			<link rel="icon" type="image/png" href="./assets/favicon.png">
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-			<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;500;700;800&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 			<meta name="description" content="Professional TV ad creation platform - Create premium 15s and 30s video ads with AI-powered tools">
 			<meta property="og:title" content="Adnexus Studio - Professional TV Ad Creation">
 			<meta property="og:description" content="Create broadcast-quality CTV/OTT ads in minutes with AI-powered video editing, QR codes, and call tracking">
@@ -40,7 +40,7 @@ export default template(async basic => {
 		`,
 		body: html`
 			<div class="loading-page-indicator">
-				<img class="logo-loader" src="/assets/adnexus-logo.png" alt="Adnexus Studio" />
+				<img class="logo-loader" src="https://ad.nexus/lovable-uploads/ebba7dda-009e-4d3c-b5d4-06707a9a84ad.png" alt="Adnexus Studio" />
 				<div class="loader"><div class="loaderBar"></div></div>
 			</div>
 		`

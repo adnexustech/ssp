@@ -125,7 +125,7 @@ export class LandingPage extends LitElement {
 	render() {return html`
 		<div class="landing-page">
 			<nav>
-				<img class="logo" src="/assets/adnexus-logo.png" alt="Adnexus Studio" />
+				<img class="logo" src="https://ad.nexus/lovable-uploads/ebba7dda-009e-4d3c-b5d4-06707a9a84ad.png" alt="Adnexus Studio" />
 				<img @click=${() => {
 					this.menuOpened = !this.menuOpened
 					this.requestUpdate()
@@ -651,7 +651,7 @@ $ omnitool batch-render ./projects/* --output-dir ./exports
 			<!-- Footer -->
 			<footer>
 				<div class="footer-logo-background">
-					<img src="/assets/adnexus-logo.png" alt="Adnexus Studio" />
+					<img src="https://ad.nexus/lovable-uploads/ebba7dda-009e-4d3c-b5d4-06707a9a84ad.png" alt="Adnexus Studio" />
 				</div>
 				
 				<div class="footer-content">

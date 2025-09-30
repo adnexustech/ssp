@@ -1,13 +1,12 @@
-@import url(../assets/fonts/Nippo/Fonts/WEB/css/nippo.css);
-@import url(../assets/fonts/Poppins/Fonts/WEB/css/poppins.css);
-@import url(../assets/fonts/NotoEmoji/Fonts/WEB/css/noto.css);
 @import url(./views/tooltip/styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Emoji:wght@300..700&display=swap');
 
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .test-env-alert::part(base) {
@@ -73,7 +72,7 @@
 			background: none;
 			border: none;
 			color: gray;
-			font-family: Nippo-Regular;
+			font-family: 'Inter', sans-serif;
 
 			&:not(:disabled) {
 				color: white;
@@ -109,7 +108,7 @@
 	& .text {
 		display: flex;
 		gap: 0.3em;
-		font-family: Poppins-Regular;
+		font-family: 'Inter', sans-serif;
 
 		& svg {
 			position: relative;
@@ -294,7 +293,7 @@ construct-editor {
 	background-color: rgba(0, 0, 0, 0.8);
 	z-index: 1000;
 	animation: fade-in-out 5s ease-in-out;
-	font-family: Poppins-Regular;
+	font-family: 'Inter', sans-serif;
 }
 
 .toast.error { background-color: #e74c3c; }
