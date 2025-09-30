@@ -5,7 +5,7 @@ export default template(async basic => {
 	return easypage({
 		path,
 		css: "index.css",
-		title: "omniclip",
+		title: "Adnexus Studio - Professional TV Ad Creation",
 		head: html`
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/themes/dark.css" />
 			<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/shoelace.js" ></script>
