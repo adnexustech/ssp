@@ -382,7 +382,7 @@ export const exportOverlayStyles = css`
 		width: 100%;
 		height: 100%;
 		z-index: 9999;
-		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-family: 'Inter', sans-serif;
 		visibility: hidden;
 		opacity: 0;
 		transition: visibility 0s 0.2s, opacity 0.2s ease;
