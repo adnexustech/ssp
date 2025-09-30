@@ -125,7 +125,7 @@ export class LandingPage extends LitElement {
 	render() {return html`
 		<div class="landing-page">
 			<nav>
-				<img class="logo" src="/assets/icon3.png" />
+				<img class="logo" src="/assets/adnexus-logo.png" alt="Adnexus Studio" />
 				<img @click=${() => {
 					this.menuOpened = !this.menuOpened
 					this.requestUpdate()
@@ -269,7 +269,7 @@ export class LandingPage extends LitElement {
 					<div class="collab-content">
 						<h2>Edit Together in Real-Time</h2>
 						<p>
-							Create amazing videos as a team with Omniclip's powerful collaboration features.
+							Create broadcast-quality TV ads as a team with Adnexus Studio's powerful collaboration features.
 							Multiple editors can work on the same project simultaneously, seeing changes instantly.
 						</p>
 						<div class=flex>
@@ -422,9 +422,9 @@ export class LandingPage extends LitElement {
 						<div class="item open">
 							<h3>Open source</h3>
 							<div class="gh">
-								<a href="https://github.com/omni-media/omniclip" class="flex">
+								<a href="https://github.com/adnexusinc/studio" class="flex">
 									<span class="btn btn-github">View on GitHub</span>
-									<img class="stars" src="https://img.shields.io/github/stars/omni-media/omniclip" alt="GitHub Stars">
+									<img class="stars" src="https://img.shields.io/github/stars/adnexusinc/studio" alt="GitHub Stars">
 								</a>
 							</div>
 							<p>
@@ -483,7 +483,7 @@ export class LandingPage extends LitElement {
 			<section id="coming-soon" class="coming-soon">
 				<div class="coming-soon-header">
 					<h2>Coming Soon <span class="feature-badge">New Features</span></h2>
-					<p>We're constantly improving Omniclip with powerful new features to make your video editing experience even better.</p>
+					<p>We're constantly improving Adnexus Studio with powerful new features to make your TV ad creation experience even better.</p>
 				</div>
 				
 				<div class="coming-soon-container">
@@ -534,7 +534,7 @@ export class LandingPage extends LitElement {
 						<span>Get Notified When Available</span>
 						${bellSvg}
 					</a>
-					<a href="https://github.com/omni-media/omniclip" target="_blank" class="github-link">
+					<a href="https://github.com/adnexusinc/studio" target="_blank" class="github-link">
 						<span>Follow Development on GitHub</span>
 						${githubSvg}
 					</a>
@@ -545,7 +545,7 @@ export class LandingPage extends LitElement {
 			<section class="developers" id="developers">
 				<h2>For developers <span class="coming-soon-badge">Coming Soon</span></h2>
 				<p class="section-intro">
-					Take full control of Omniclip projects through code, automation, or CI/CD pipelines.
+					Take full control of Adnexus Studio projects through code, automation, or CI/CD pipelines.
 				</p>
 
 				<div class="dev-features-grid">
@@ -564,7 +564,7 @@ export class LandingPage extends LitElement {
 							<div class="code-preview">
 								<pre><code>
 // Create a video timeline programmatically
-const watermark = subtitle("omniclip")
+const watermark = subtitle("adnexus studio")
 const xfade = crossfade(500)
 
 const timeline = sequence(
@@ -651,7 +651,7 @@ $ omnitool batch-render ./projects/* --output-dir ./exports
 			<!-- Footer -->
 			<footer>
 				<div class="footer-logo-background">
-					<img src="/assets/icon3.png" alt="Omniclip" />
+					<img src="/assets/adnexus-logo.png" alt="Adnexus Studio" />
 				</div>
 				
 				<div class="footer-content">

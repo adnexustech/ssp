@@ -28,15 +28,19 @@ export default template(async basic => {
 			<script defer src="https://cdn.jsdelivr.net/npm/es-module-shims@1.8.2/dist/es-module-shims.min.js"></script>
 			<script type="module-shim" src="./main.js"></script>
 			<link rel="stylesheet" href="index.css">
-			<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+			<link rel="icon" type="image/png" href="./assets/favicon.png">
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;500;700;800&display=swap" rel="stylesheet">
-			<title>omni-clip</title>
+			<meta name="description" content="Professional TV ad creation platform - Create premium 15s and 30s video ads with AI-powered tools">
+			<meta property="og:title" content="Adnexus Studio - Professional TV Ad Creation">
+			<meta property="og:description" content="Create broadcast-quality CTV/OTT ads in minutes with AI-powered video editing, QR codes, and call tracking">
+			<meta property="og:type" content="website">
+			<meta name="twitter:card" content="summary_large_image">
 		`,
 		body: html`
 			<div class="loading-page-indicator">
-				<img class="logo-loader" src="/assets/icon3.png" />
+				<img class="logo-loader" src="/assets/adnexus-logo.png" alt="Adnexus Studio" />
 				<div class="loader"><div class="loaderBar"></div></div>
 			</div>
 		`
