@@ -54,13 +54,15 @@
 		display: flex;
 		align-items: center;
 		border: 1px solid;
-		padding: 0.2em;
+		padding: 0.2em 0.4em;
 		border-radius: 5px;
 		height: 20px;
+		gap: 0.5em;
 
 		& .icons {
 			display: flex;
 			cursor: pointer;
+			padding-left: 0.3em;
 
 			& .check {
 				display: flex;
