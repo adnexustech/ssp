@@ -72,9 +72,29 @@ export const styles = css`
 	figure {
 		position: relative;
 		overflow: hidden;
-		aspect-ratio: 16/9;
 		display: flex;
 		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	figure[data-scale="fit"] {
+		.canvas-container {
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+
+	figure[data-scale="fill"] {
+		.canvas-container {
+			width: 100% !important;
+			height: 100% !important;
+		}
+	}
+
+	figure[data-scale="1:1"] {
+		overflow: auto;
 	}
 	
 	video {
@@ -84,18 +104,52 @@ export const styles = css`
 	.controls {
 		display: flex;
 		justify-content: center;
+		align-items: center;
+		gap: 1em;
 		width: 100%;
 		margin: 0.5em 0;
 		z-index: 999;
+		position: relative;
 
 		& button {
 			display: flex;
 			align-items: center;
+			font-family: 'Inter', sans-serif;
 		}
 
 		& .fs {
 			position: absolute;
 			right: 1em;
+		}
+	}
+
+	.scale-controls {
+		display: flex;
+		gap: 0.5em;
+		padding: 0.3em;
+		background: rgba(255, 255, 255, 0.1);
+		border-radius: 5px;
+		position: absolute;
+		left: 1em;
+
+		& button {
+			padding: 0.3em 0.6em;
+			font-size: 0.85em;
+			border: 1px solid rgba(255, 255, 255, 0.3);
+			border-radius: 4px;
+			color: white;
+			background: transparent;
+			transition: all 0.2s;
+
+			&:hover {
+				background: rgba(255, 255, 255, 0.1);
+				border-color: rgba(255, 255, 255, 0.5);
+			}
+
+			&.active {
+				background: rgba(255, 255, 255, 0.2);
+				border-color: white;
+			}
 		}
 	}
 
