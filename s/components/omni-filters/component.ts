@@ -202,7 +202,8 @@ export const OmniFilters = shadow_component(use => {
 						filtersManager.addFilterToEffect(selectedImageOrVideoEffect!, type)
 					}}
 				>
-					<p>${type}</p>
+					${canvas}
+					<p class="filter-name">${type}</p>
 				</div>
 				<sl-dropdown hoist>
 					<sl-button slot="trigger" size="small" caret>Options</sl-button>

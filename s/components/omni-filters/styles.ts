@@ -104,6 +104,7 @@ h2 {
 	}
 
 	& .filter-preview {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		width: 200px;
@@ -113,17 +114,36 @@ h2 {
 		cursor: pointer;
 		border: 1px solid #373535;
 		border-radius: 5px;
+		overflow: hidden;
+		background: #1a1a1a;
 
-		& p {
-			padding: 0.2em;
+		& .filter-name {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 0.5em;
+			background: rgba(0, 0, 0, 0.8);
+			color: white;
+			font-size: 0.85em;
+			text-align: center;
+			font-family: 'Inter', sans-serif;
+			margin: 0;
 		}
 
 		& canvas {
 			width: 100%;
+			height: 100%;
+			object-fit: cover;
 		}
 
 		&[data-selected] {
-			border: 1px solid white;
+			border: 2px solid white;
+			box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+		}
+
+		&:hover {
+			border-color: #666;
 		}
 	}
 
