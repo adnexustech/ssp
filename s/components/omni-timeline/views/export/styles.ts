@@ -242,7 +242,7 @@ export const confirmModalStyles = css`
 	dialog {
 		align-self: center;
 		justify-self: center;
-		font-family: Poppins-Regular;
+		font-family: Inter;
 		padding: 0.5em;
 		background: #111;
 		max-width: 350px;
@@ -276,7 +276,7 @@ export const confirmModalStyles = css`
 		color: black;
 		margin-top: 0.2em;
 		padding-left: 0.3em;
-		font-family: Nippo-Regular;
+		font-family: Inter;
 		font-size: 0.8em;
 		max-width: 300px;
 
@@ -346,7 +346,7 @@ export const confirmModalStyles = css`
 		& .text {
 			display: flex;
 			gap: 0.3em;
-			font-family: Poppins-Regular;
+			font-family: Inter;
 
 			& svg {
 				position: relative;
@@ -370,7 +370,7 @@ export const confirmModalStyles = css`
 		border-radius: 5px;
 		color: black;
 		font-size: 0.8em;
-		font-family: Nippo-Regular;
+		font-family: Inter;
 	}
 `
 export const exportOverlayStyles = css`

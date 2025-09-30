@@ -40,7 +40,7 @@ export default template(async basic => {
 		`,
 		body: html`
 			<div class="loading-page-indicator">
-				<img class="logo-loader" src="https://ad.nexus/lovable-uploads/ebba7dda-009e-4d3c-b5d4-06707a9a84ad.png" alt="Adnexus Studio" />
+				<img class="logo-loader" src="./assets/adnexus-logo-light.png" alt="Adnexus Studio" />
 				<div class="loader"><div class="loaderBar"></div></div>
 			</div>
 		`

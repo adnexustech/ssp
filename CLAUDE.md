@@ -6,6 +6,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Adnexus Studio is a browser-based professional TV ad creation platform for producing 15-second and 30-second CTV/OTT ads. It uses WebCodecs API for high-performance video processing entirely in the browser, with no server-side rendering required.
 
+**Deployment Strategy:**
+- This repository contains the app only (no marketing/landing page)
+- App opens directly to project manager at root route `/`
+- Marketing page is hosted separately at ~/work/adnexus/web at /studio route
+- Production URL: studio.ad.nexus
+
 **Key Technologies:**
 - TypeScript with LitElement components
 - PixiJS for canvas rendering

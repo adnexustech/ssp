@@ -112,7 +112,7 @@ export default css`
 
 /* Typography */
 h1, h2, h3, h4, p, a {
-	font-family: Poppins-Regular;
+	font-family: Inter;
 }
 
 h1 {
@@ -129,14 +129,14 @@ h1 {
 
 h1 span, h2 span {
 	background-clip: text !important;
-	font-family: Nippo-Regular;
+	font-family: Inter;
 	background: linear-gradient(180.2deg, #FFFFFF 29.5%, #848588 50.27%, #FFFFFF 72.49%);
 	display: inline-block;
 	line-height: 1.3;
 }
 
 h2 {
-	font-family: Nippo-Regular;
+	font-family: Inter;
 	font-size: 2.5em;
 	text-align: center;
 	color: white;
@@ -211,7 +211,7 @@ nav .menu[data-opened] {
 	background: rgba(15, 15, 15, 0.95);
 	backdrop-filter: blur(12px);
 	padding: 1.5em;
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	box-shadow: var(--shadow-medium);
 	border: 1px solid var(--border-medium);
 	animation: fadeIn 0.3s ease;
@@ -351,7 +351,7 @@ nav .nav {
 	font-size: 1em;
 	font-weight: lighter;
 	color: white;
-	font-family: Poppins-ExtraLight;
+	font-family: Inter;
 	-webkit-text-fill-color: unset;
 	margin-bottom: 1em;
 	position: relative;
@@ -435,7 +435,7 @@ nav .nav {
 }
 
 .abilities .items h4 {
-	font-family: Poppins-ExtraLight;
+	font-family: Inter;
 	font-size: 1.1em;
 	margin-bottom: 2em;
 	color: var(--text-primary);
@@ -520,7 +520,7 @@ nav .nav {
 }
 
 .abilities .item-more p {
-	font-family: Poppins-ExtraLight;
+	font-family: Inter;
 	font-size: 0.9em;
 	margin-bottom: 1.5em;
 	line-height: 1.6;
@@ -596,7 +596,7 @@ nav .nav {
 	flex-direction: column;
 	gap: 1.5em;
 	align-items: self-start;
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	margin-top: 2em;
 	text-align: left;
 	position: relative;
@@ -679,7 +679,7 @@ nav .nav {
 }
 
 .collab-content > p {
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	font-size: 1.1em;
 	line-height: 1.6;
 	color: var(--text-secondary);
@@ -744,7 +744,7 @@ nav .nav {
 }
 
 .feature-text p {
-	font-family: Poppins-ExtraLight;
+	font-family: Inter;
 	font-size: 0.95em;
 	line-height: 1.5;
 	color: var(--text-secondary);
@@ -925,7 +925,7 @@ nav .nav {
 }
 
 .transitions-header p {
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	font-size: 1.1em;
 	line-height: 1.6;
 	color: var(--text-secondary);
@@ -1393,7 +1393,7 @@ nav .nav {
 
 .differences .item p {
 	font-size: 1em;
-	font-family: Poppins-ExtraLight;
+	font-family: Inter;
 	text-align: center;
 	line-height: 1.6;
 	color: var(--text-secondary);
@@ -1429,7 +1429,7 @@ nav .nav {
 }
 
 .coming-soon-header p {
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	font-size: 1.1em;
 	line-height: 1.6;
 	color: var(--text-secondary);
@@ -1494,7 +1494,7 @@ nav .nav {
 }
 
 .feature-content p {
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	font-size: 1.1em;
 	line-height: 1.6;
 	color: var(--text-secondary);
@@ -1518,7 +1518,7 @@ nav .nav {
 .feature-list li {
 	display: flex;
 	align-items: center;
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	color: white;
 }
 
@@ -1694,7 +1694,7 @@ nav .nav {
 }
 
 .developers .dev-features .feature span {
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	color: white;
 	font-size: 0.95em;
 }
@@ -1782,7 +1782,7 @@ nav .nav {
 	padding: 0.4em 1em;
 	color: black;
 	margin: 1em;
-	font-family: "Nippo-Regular";
+	font-family: "Inter";
 	gap: 0.5em;
 	border-radius: 20px;
 	font-weight: 500;
@@ -2234,7 +2234,7 @@ footer {
 	padding: 6em;
 	background: rgba(20, 20, 20, 0.95);
 	font-size: 0.9em;
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	position: relative;
 	overflow: hidden;
 }

@@ -23,12 +23,12 @@ export const styles = css`
 	border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	padding: 20px;
 	z-index: 1000;
-	font-family: Poppins-Regular;
+	font-family: Inter;
 	overflow-y: scroll;
 	max-height: 100%;
 
 	& tbody {
-		font-family: Poppins-ExtraLight;
+		font-family: Inter;
 	}
 }
 

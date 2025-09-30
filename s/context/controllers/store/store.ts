@@ -4,5 +4,5 @@ import {json_storage_proxy} from "../../../tools/json_storage_proxy.js"
 export type Store = Partial<HistoricalState>
 
 export function store(storage: Storage) {
-	return json_storage_proxy<Store>(storage, "omniclip_")
+	return json_storage_proxy<Store>(storage, "adnexus-studio_")
 }

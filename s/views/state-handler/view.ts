@@ -15,7 +15,7 @@ const errorState = shadow_view(use => (reason: string) => {
 		return html`
 			<div class="box">
 				<p>Browser not supported </p>
-				<p>to use omniclip, you need to use latest version of either:</p>
+				<p>to use adnexus-studio, you need to use latest version of either:</p>
 				<ul>
 					<li>Google Chrome</li>
 					<li>Microsoft Edge</li>

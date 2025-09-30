@@ -16,7 +16,6 @@ import {OmniAnim} from "./components/omni-anim/component.js"
 import {OmniMedia} from "./components/omni-media/component.js"
 import {FiltersPanel} from './components/omni-filters/panel.js'
 import {TimelinePanel} from "./components/omni-timeline/panel.js"
-import {LandingPage} from './components/landingpage/component.js'
 import {OmniManager} from './components/omni-manager/component.js'
 import {OmniFilters} from './components/omni-filters/component.js'
 import {CollaborationManager} from './views/collaboration/view.js'
@@ -62,7 +61,7 @@ export function setupContext(projectId: string) {
 	return omnislate
 }
 
-register_to_dom({OmniManager, LandingPage})
+register_to_dom({OmniManager})
 let registered = false
 
 export function removeLoadingPageIndicator() {
@@ -100,7 +99,7 @@ const VideoEditor =  (omnislate: Nexus<OmniContext>) => omnislate.light_view((us
 			${ExportInProgressOverlay([])}
 			<div class=editor-header>
 				<div class=flex>
-					<img class="logo" src="https://ad.nexus/lovable-uploads/ebba7dda-009e-4d3c-b5d4-06707a9a84ad.png" />
+					<img class="logo" src="/assets/adnexus-logo-light.png" />
 					<div class="project-name">
 						<span class="box">
 							<input class="input-name" ?disabled=${renameDisabled} .value=${use.context.state.projectName}>
@@ -135,9 +134,7 @@ const VideoEditor =  (omnislate: Nexus<OmniContext>) => omnislate.light_view((us
 
 const router = new HashRouter({
 	'/': () => {
-		return html`<landing-page></landing-page>`
-	},
-	'/editor': () => {
+		removeLoadingPageIndicator()
 		collaboration.disconnect()
 		return html`<omni-manager></omni-manager>`
 	},

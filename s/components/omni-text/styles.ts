@@ -59,7 +59,7 @@ export const styles = css`
 		& .colors-cnt, .stops-cnt {
 			display: flex;
 			align-items: center;
-			font-family: Poppins-Regular;
+			font-family: Inter;
 			align-items: baseline;
 			cursor: pointer;
 

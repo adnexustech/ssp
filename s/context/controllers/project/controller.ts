@@ -206,7 +206,7 @@ export class Project {
 	}
 
 	*loadProjectsFromStorage() {
-		const prefix = 'omniclip_'
+		const prefix = 'adnexus-studio_'
 		for (const key in localStorage) {
 			if (key && key.startsWith(prefix)) {
 				const storedData = localStorage.getItem(key)

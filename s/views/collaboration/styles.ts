@@ -7,7 +7,7 @@ export const styles = css`
 		gap: 0.3em;
 		border: 1px solid white;
 		border-radius: 5px;
-		font-family: Nippo-Regular;
+		font-family: Inter;
 		background: white;
 	}
 
@@ -247,7 +247,7 @@ export const styles = css`
 	}
 
 	.collaborate {
-		font-family: Poppins-Regular;
+		font-family: Inter;
 		display: flex;
 		color: white;
 		height: 21px;
@@ -291,7 +291,7 @@ export const styles = css`
 		border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 		padding: 20px;
 		z-index: 1000;
-		font-family: Poppins-Regular;
+		font-family: Inter;
 		overflow-y: scroll;
 		max-height: 100%;
 		gap: 1em;

@@ -14,7 +14,7 @@ export const styles = css`
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		font-family: Poppins-Regular;
+		font-family: Inter;
 		width: 1000px;
 	}
 

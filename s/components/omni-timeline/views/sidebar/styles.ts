@@ -17,7 +17,7 @@ export const styles = css`
 			justify-content: center;
 
 			& .index {
-				font-family: Nippo-Regular;
+				font-family: Inter;
 				font-size: 0.8em;
 				border-radius: 2px;
 				margin-right: 0.5em;

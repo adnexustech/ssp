@@ -147,7 +147,7 @@ export class OmniManager extends LitElement {
 								<div class=items>
 									<button class="export" @click=${() => this.project.exportProject(project)}>${exportSvg}</button>
 									<span class="duration">${project.effects?.length === 0 ? 0 : convert_ms_to_hms(calculateProjectDuration(project.effects))}s</span>
-									<button class="remove"><span @click=${() => this.removeProject(project.projectId, "omniclip_")} class="icon">${binSvg}<span></button>
+									<button class="remove"><span @click=${() => this.removeProject(project.projectId, "adnexus-studio_")} class="icon">${binSvg}<span></button>
 								</div>
 								<a href="#/editor/${project.projectId}"class="open">${circlePlaySvg}</a>
 								<span class="project-name">${project.projectName}</span>

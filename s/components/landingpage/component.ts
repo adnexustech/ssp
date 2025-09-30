@@ -8,7 +8,6 @@ import addSvg from "../../icons/gravity-ui/add.svg.js"
 import bellSvg from "../../icons/gravity-ui/bell.svg.js"
 import codeSvg from "../../icons/remix-icon/code.svg.js"
 import syncSvg from "../../icons/remix-icon/sync.svg.js"
-import {removeLoadingPageIndicator} from "../../main.js"
 import lockSvg from "../../icons/gravity-ui/lock.svg.js"
 import githubSvg from "../../icons/remix-icon/github.svg.js"
 import peopleSvg from "../../icons/gravity-ui/people.svg.js"
@@ -88,7 +87,6 @@ export class LandingPage extends LitElement {
 	connectedCallback() {
 		super.connectedCallback()
 		window.addEventListener("click", this.menuClick)
-		removeLoadingPageIndicator()
 	}
 
 	disconnectedCallback() {
@@ -125,7 +123,7 @@ export class LandingPage extends LitElement {
 	render() {return html`
 		<div class="landing-page">
 			<nav>
-				<img class="logo" src="https://ad.nexus/lovable-uploads/ebba7dda-009e-4d3c-b5d4-06707a9a84ad.png" alt="Adnexus Studio" />
+				<img class="logo" src="/assets/adnexus-logo-light.png" alt="Adnexus Studio" />
 				<img @click=${() => {
 					this.menuOpened = !this.menuOpened
 					this.requestUpdate()
@@ -653,21 +651,14 @@ $ omnitool batch-render ./projects/* --output-dir ./exports
 				<div class="footer-logo-background">
 					<img src="https://ad.nexus/lovable-uploads/ebba7dda-009e-4d3c-b5d4-06707a9a84ad.png" alt="Adnexus Studio" />
 				</div>
-				
+
 				<div class="footer-content">
-					<!-- <div class="footer-main"> -->
-					<!-- 	<span>Copyright © 2024 Omniclip All Rights Reserved.</span> -->
-					<!-- 	<div class="footer-links"> -->
-					<!-- 		<a>Terms & Conditions</a> -->
-					<!-- 		<a>Privacy Policy</a> -->
-					<!-- 	</div> -->
-					<!-- </div> -->
-					<div class="creator-credit">
-						<span>Made by Przemek Gałęzki</span>
-						<a href="https://github.com/zenkyuv" class="github-link" target="_blank">
-							<span>Github</span>
-							${githubSvg}
-						</a>
+					<div class="footer-main">
+						<span>Copyright © 2025 Adnexus Technology Inc. All Rights Reserved.</span>
+						<div class="footer-links">
+							<a href="https://ad.nexus/terms">Terms & Conditions</a>
+							<a href="https://ad.nexus/privacy">Privacy Policy</a>
+						</div>
 					</div>
 				</div>
 			</footer>
