@@ -163,11 +163,7 @@ construct-editor {
 	justify-content: center;
 	align-items: center;
 	font-family: sans-serif;
-	background: rgba(0, 0, 0, 1);
-	background-image: url(../assets/bg-hero.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	background: #000;
 }
 
 .shine {
