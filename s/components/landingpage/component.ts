@@ -123,18 +123,22 @@ export class LandingPage extends LitElement {
 	render() {return html`
 		<div class="landing-page">
 			<nav>
-				<img class="logo" src="/assets/adnexus-logo-light.png" alt="Adnexus Studio" />
+				<a href="https://ad.nexus" target="_blank" rel="noopener noreferrer">
+					<img class="logo" src="/assets/adnexus-logo-white-inverted.png" alt="Adnexus Studio" />
+				</a>
 				<img @click=${() => {
 					this.menuOpened = !this.menuOpened
 					this.requestUpdate()
 				}} class="menu-icon" src="/assets/hamburger.svg">
 				<div class="menu" ?data-opened=${this.menuOpened}>
+					<a href="https://ad.nexus" target="_blank">Adnexus</a>
 					<a @click=${() => this.scrollIntoElementView("welcome")} href="#welcome">Home</a>
 					<a @click=${() => this.scrollIntoElementView("capabilities")} href="#capabilities">Features</a>
 					<a @click=${() => this.scrollIntoElementView("coming-soon")} href="#coming-soon">Coming Soon</a>
 					<a class="try" href="#/editor">Try it out ${arrowRightSvg}</a>
 				</div>
 				<div class="nav">
+					<a href="https://ad.nexus" target="_blank">Adnexus</a>
 					<a @click=${() => this.scrollIntoElementView("welcome")} href="#welcome">Home</a>
 					<a @click=${() => this.scrollIntoElementView("capabilities")} href="#capabilities">Features</a>
 					<a @click=${() => this.scrollIntoElementView("coming-soon")} href="#coming-soon">Coming Soon</a>

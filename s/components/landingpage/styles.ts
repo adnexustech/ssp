@@ -78,7 +78,7 @@ export default css`
 	--secondary-gradient: linear-gradient(135deg, #f59e0b, #f97316);
 	--text-primary: #f0f0f0;
 	--text-secondary: rgba(255, 255, 255, 0.8);
-	--bg-primary: #0a0a0a;
+	--bg-primary: #000000;
 	--bg-card: rgba(30, 30, 30, 0.5);
 	--border-light: rgba(255, 255, 255, 0.05);
 	--border-medium: rgba(255, 255, 255, 0.1);
@@ -104,6 +104,7 @@ export default css`
 .landing-page {
 	display: flex;
 	flex-direction: column;
+	min-height: 100vh;
 	font-size: 16px;
 	color: var(--text-primary);
 	background: var(--bg-primary);
