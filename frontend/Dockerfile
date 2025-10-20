@@ -1,0 +1,18 @@
+# Dockerfile for SSP UI
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+RUN npm install
+
+# Copy app files
+COPY . .
+
+# Build the app
+RUN npm run build
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
